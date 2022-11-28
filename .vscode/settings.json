@@ -1,0 +1,19 @@
+{
+  "appService.showBuildDuringDeployPrompt": false,
+  "sqltools.connections": [
+    {
+      "mssqlOptions": {
+        "appName": "SQLTools",
+        "useUTC": true,
+        "encrypt": true
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 1433,
+      "askForPassword": true,
+      "driver": "MSSQL",
+      "connectString": "Server=tcp:cloud-assignment-server.database.windows.net,1433;Initial Catalog=Cloud_Assignment;Persist Security Info=False;User ID=kritikasingh02;Password=Kritikasingh123@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
+      "name": "AzureCloudAssignment"
+    }
+  ]
+}
